@@ -9,6 +9,12 @@
     },
     {
       "level": "H3",
+      "text": "This sample is a multi-page PDF document.",
+      "page": 0,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
       "text": "Continue scrolling to see the remainder of the application, navigate",
       "page": 0,
       "lang": "en"
@@ -41,7 +47,7 @@
       "level": "H3",
       "text": ".",
       "page": 0,
-      "lang": null
+      "lang": "en"
     },
     {
       "level": "H1",
@@ -215,13 +221,13 @@
       "level": "H2",
       "text": "✱",
       "page": 41,
-      "lang": null
+      "lang": "zh"
     },
     {
       "level": "H2",
       "text": "✱",
       "page": 41,
-      "lang": null
+      "lang": "zh"
     },
     {
       "level": "H1",
@@ -233,13 +239,13 @@
       "level": "H2",
       "text": "✱",
       "page": 41,
-      "lang": null
+      "lang": "zh"
     },
     {
       "level": "H2",
       "text": "✱",
       "page": 41,
-      "lang": null
+      "lang": "zh"
     },
     {
       "level": "H1",

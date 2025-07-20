@@ -35,7 +35,7 @@
       "level": "H2",
       "text": "1",
       "page": 1,
-      "lang": null
+      "lang": "en"
     },
     {
       "level": "H3",
@@ -47,25 +47,25 @@
       "level": "H2",
       "text": "2",
       "page": 1,
-      "lang": null
+      "lang": "en"
     },
     {
       "level": "H3",
       "text": "コード",
       "page": 1,
-      "lang": null
+      "lang": "ja"
     },
     {
       "level": "H3",
       "text": "謝辞",
       "page": 7,
-      "lang": null
+      "lang": "zh"
     },
     {
       "level": "H3",
       "text": "変更履歴",
       "page": 7,
-      "lang": null
+      "lang": "zh"
     }
   ]
 }

@@ -1,218 +1,125 @@
-
-# import fitz  # PyMuPDF
-# import json
-# import glob
-# import re
-# import os
-# from collections import Counter
-
-# # 1. Extract all text spans from every page
-# def extract_spans(doc):
-#     spans = []
-#     for pno in range(doc.page_count):
-#         page = doc.load_page(pno)
-#         for b in page.get_text("dict")["blocks"]:
-#             if b["type"] != 0:
-#                 continue
-#             for line in b["lines"]:
-#                 for span in line["spans"]:
-#                     text = span["text"].strip()
-#                     if text:
-#                         spans.append({
-#                             "text": text,
-#                             "size": round(span["size"], 1),
-#                             "flags": span["flags"],
-#                             "page": pno  # ✅ Page numbers start from 0
-#                         })
-#     return spans
-
-# # 2. Infer heading font sizes
-# def infer_heading_sizes(spans):
-#     sizes = [s["size"] for s in spans]
-#     freq = Counter(sizes)
-#     body, _ = freq.most_common(1)[0]
-#     larger = sorted([sz for sz in freq if sz > body], reverse=True)
-#     return larger[:3], body
-
-# # 3. Numbered heading detection
-# numbered_re = re.compile(r"^(\d+(?:\.\d+){0,2})\s+(.+)$")
-
-# def classify_numbered(text):
-#     m = numbered_re.match(text)
-#     if not m:
-#         return None, None
-#     depth = m.group(1).count('.') + 1
-#     return f"H{min(depth, 3)}", m.group(2).strip()
-
-# # 4. Build title + outline
-# def build_outline(spans):
-#     heading_sizes, _ = infer_heading_sizes(spans)
-
-#     # ✅ Pick first span with largest heading size on page 0
-#     title = ""
-#     title_candidates = [s for s in spans if s["page"] == 0 and s["size"] == heading_sizes[0]]
-#     title_span = None
-#     if title_candidates:
-#         title_span = title_candidates[0]
-#         title = title_span["text"]
-
-#     outline = []
-#     for s in spans:
-#         # ✅ Skip span used as title
-#         if title_span and s["text"] == title and s["page"] == title_span["page"] and s["size"] == title_span["size"]:
-#             continue
-
-#         # Numbered headings
-#         lvl, txt = classify_numbered(s["text"])
-#         if lvl:
-#             outline.append({"level": lvl, "text": txt, "page": s["page"]})
-#             continue
-
-#         # Size-based headings
-#         if s["size"] in heading_sizes:
-#             idx = heading_sizes.index(s["size"])
-#             outline.append({"level": f"H{idx+1}", "text": s["text"], "page": s["page"]})
-
-#     return title, outline
-
-# # 5. Main: process all PDFs
-# if __name__ == '__main__':
-#     input_dir = os.path.join("app", "input")
-#     output_dir = os.path.join("app", "output")
-
-#     for pdf in glob.glob(os.path.join(input_dir, "*.pdf")):
-#         print(f"Processing: {pdf}")
-#         doc = fitz.open(pdf)
-#         spans = extract_spans(doc)
-#         title, outline = build_outline(spans)
-#         out = {'title': title, 'outline': outline}
-#         filename = os.path.basename(pdf).replace(".pdf", ".json")
-#         out_path = os.path.join(output_dir, filename)
-#         with open(out_path, 'w', encoding='utf-8') as f:
-#             json.dump(out, f, indent=2, ensure_ascii=False)
-#         print(f"Saved to: {out_path}")
-
-
-
-
-
-
-
-
-import fitz  # PyMuPDF
+import fitz       # PyMuPDF
 import json
 import glob
-import re
 import os
-from collections import Counter
+import re
 import langid
+from collections import Counter
 
-# 1. Extract spans from each page
+# 1) Numbered‑heading regex (e.g. "1.", "1.2.", "1.2.3")
+numbered_re = re.compile(r"^(\d+(?:\.\d+){0,2})\s+(.+)$")
+def classify_numbered(text):
+    m = numbered_re.match(text)
+    if not m:
+        return None, None
+    depth = m.group(1).count('.') + 1
+    return f"H{min(depth, 3)}", m.group(2).strip()
+
+# 2) Extract all text spans (with font sizes) from every page
 def extract_spans(doc):
     spans = []
     for pno in range(doc.page_count):
         page = doc.load_page(pno)
-        for block in page.get_text("dict")["blocks"]:
-            if block["type"] != 0:
+        for blk in page.get_text("dict")["blocks"]:
+            if blk["type"] != 0:  # ignore non-text blocks
                 continue
-            for line in block["lines"]:
-                for span in line["spans"]:
-                    text = span["text"].strip()
-                    if text:
-                        spans.append({
-                            "text": text,
-                            "size": round(span["size"], 1),
-                            "flags": span["flags"],
-                            "page": pno
-                        })
+            for line in blk["lines"]:
+                for sp in line["spans"]:
+                    txt = sp["text"].strip()
+                    if not txt:
+                        continue
+                    spans.append({
+                        "text": txt,
+                        "size": round(sp["size"], 1),
+                        "page": pno  # zero‑indexed pages
+                    })
     return spans
 
-# 2. Identify heading font sizes
+# 3) Infer heading font sizes by frequency clustering
 def infer_heading_sizes(spans):
-    sizes = [s["size"] for s in spans]
-    freq = Counter(sizes)
+    freq = Counter(s["size"] for s in spans)
     if not freq:
         return [], None
+    # Most common size = body text
     body_size, _ = freq.most_common(1)[0]
-    heading_sizes = sorted([sz for sz in freq if sz > body_size], reverse=True)
-    return heading_sizes[:3], body_size
+    # Any larger sizes are potential headings
+    larger = sorted((sz for sz in freq if sz > body_size), reverse=True)
+    # Up to three tiers (H1, H2, H3)
+    return larger[:3], body_size
 
-# 3. Detect numbered headings
-numbered_re = re.compile(r"^(\d+(?:\.\d+){0,2})\s+(.+)$")
-def classify_numbered(text):
-    match = numbered_re.match(text)
-    if not match:
-        return None, None
-    depth = match.group(1).count('.') + 1
-    return f"H{min(depth, 3)}", match.group(2).strip()
-
-# 4. Detect language using langid
-def detect_language(text):
-    try:
-        if len(text.strip()) < 5:
-            return None
-        return langid.classify(text)[0]
-    except:
-        return None
-
-# 5. Build title and outline
-def build_outline(spans, detect_languages=True):
+# 4) Build the outline with title‑fallback and deferred langid
+def build_outline(spans):
     heading_sizes, _ = infer_heading_sizes(spans)
     title = None
     seen_title = set()
-    outline = []
+    temp = []
 
+    # 4.1 Classification pass (no langid calls here)
     for s in spans:
-        lang = detect_language(s["text"]) if detect_languages else None
+        txt, pg, sz = s["text"], s["page"], s["size"]
 
-        # Title: first heading-level text on page 0
-        if s["page"] == 0 and s["size"] in heading_sizes and not title:
-            title = s["text"]
-            seen_title.add(s["text"])
+        # Title: first span on page 0 with the largest heading-size
+        if pg == 0 and heading_sizes and sz == heading_sizes[0] and title is None:
+            title = txt
+            seen_title.add(txt)
             continue
 
-        # Numbered headings (1., 1.2., etc.)
-        lvl, txt = classify_numbered(s["text"])
+        # Numbered headings override (1., 1.2., 1.2.3)
+        lvl, core = classify_numbered(txt)
         if lvl:
-            outline.append({
-                "level": lvl,
-                "text": txt,
-                "page": s["page"],
-                "lang": lang
-            })
+            temp.append((lvl, core, pg))
             continue
 
-        # Font size–based headings
-        if s["size"] in heading_sizes and s["text"] not in seen_title:
-            idx = heading_sizes.index(s["size"])
-            outline.append({
-                "level": f"H{idx + 1}",
-                "text": s["text"],
-                "page": s["page"],
-                "lang": lang
-            })
+        # Size‑based headings (font size tiers)
+        if sz in heading_sizes and txt not in seen_title:
+            idx = heading_sizes.index(sz)
+            temp.append((f"H{idx+1}", txt, pg))
+
+    # 4.2 Title‑fallback if not set above
+    if not title:
+        page0_spans = [s for s in spans if s["page"] == 0]
+        if page0_spans:
+            # Choose the span with the maximum font size
+            fallback = max(page0_spans, key=lambda x: x["size"])
+            title = fallback["text"]
+
+    # 4.3 Attach language tag to each heading (deferred langid)
+    outline = []
+    for lvl, txt, pg in temp:
+        lang, _ = langid.classify(txt)
+        outline.append({
+            "level": lvl,
+            "text": txt,
+            "page": pg,
+            "lang": lang or None
+        })
 
     return title or "", outline
 
-# 6. Process all PDFs in input/
+# 5) Main: process all PDFs in app/input → app/output
 if __name__ == "__main__":
-    input_dir = os.path.join("app", "input")
-    output_dir = os.path.join("app", "output")
-    os.makedirs(output_dir, exist_ok=True)
+    INPUT_DIR  = os.path.join("app", "input")
+    OUTPUT_DIR = os.path.join("app", "output")
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-    for pdf_path in glob.glob(os.path.join(input_dir, "*.pdf")):
-        print(f"Processing: {pdf_path}")
+    for pdf_path in glob.glob(os.path.join(INPUT_DIR, "*.pdf")):
+        print(f"📄 Processing {pdf_path} …")
         try:
             doc = fitz.open(pdf_path)
             spans = extract_spans(doc)
-            title, outline = build_outline(spans, detect_languages=True)
-            output = {"title": title, "outline": outline}
+            title, outline = build_outline(spans)
 
-            out_file = os.path.splitext(os.path.basename(pdf_path))[0] + ".json"
-            out_path = os.path.join(output_dir, out_file)
+            result = {
+                "title":   title,
+                "outline": outline
+            }
+
+            base = os.path.splitext(os.path.basename(pdf_path))[0]
+            out_path = os.path.join(OUTPUT_DIR, f"{base}.json")
             with open(out_path, "w", encoding="utf-8") as f:
-                json.dump(output, f, indent=2, ensure_ascii=False)
+                json.dump(result, f, indent=2, ensure_ascii=False)
 
-            print(f"✅ Saved to: {out_path}")
+            print(f"✅ Saved to {out_path}")
         except Exception as e:
             print(f"❌ Error processing {pdf_path}: {e}")
+
