@@ -4,57 +4,68 @@
     {
       "level": "H3",
       "text": "Mission Statement:",
-      "page": 0
+      "page": 0,
+      "lang": "en"
     },
     {
       "level": "H2",
       "text": "PATHWAY OPTIONS",
-      "page": 0
+      "page": 0,
+      "lang": "en"
     },
     {
       "level": "H2",
       "text": "REGULAR PATHWAY",
-      "page": 0
+      "page": 0,
+      "lang": "en"
     },
     {
       "level": "H1",
       "text": "credits of Math",
-      "page": 0
+      "page": 0,
+      "lang": "en"
     },
     {
       "level": "H1",
       "text": "credits of Science",
-      "page": 0
+      "page": 0,
+      "lang": "en"
     },
     {
       "level": "H1",
       "text": "credits of STEM-designated electives",
-      "page": 0
+      "page": 0,
+      "lang": "en"
     },
     {
       "level": "H2",
       "text": "DISTINCTION PATHWAY",
-      "page": 0
+      "page": 0,
+      "lang": "en"
     },
     {
       "level": "H1",
       "text": "credits of Math - At least one math",
-      "page": 0
+      "page": 0,
+      "lang": "en"
     },
     {
       "level": "H1",
       "text": "credits of Science- At least one",
-      "page": 0
+      "page": 0,
+      "lang": "en"
     },
     {
       "level": "H1",
       "text": "credits of STEM-designated electives",
-      "page": 0
+      "page": 0,
+      "lang": "en"
     },
     {
       "level": "H3",
       "text": "Goals:",
-      "page": 0
+      "page": 0,
+      "lang": "en"
     }
   ]
 }

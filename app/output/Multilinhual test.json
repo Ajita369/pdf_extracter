@@ -1,0 +1,1925 @@
+{
+  "title": "Japanese Grammar Guide",
+  "outline": [
+    {
+      "level": "H3",
+      "text": "Tae Kim",
+      "page": 0,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "November 21, 2012",
+      "page": 0,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "Contents",
+      "page": 2,
+      "lang": "en"
+    },
+    {
+      "level": "H2",
+      "text": "Relative Clauses and Sentence Order",
+      "page": 3,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Treating verbs and state-of-being like adjectives",
+      "page": 3,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using state-of-being clauses as adjectives",
+      "page": 3,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using relative verb clauses as adjectives",
+      "page": 3,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Japanese Sentence Order",
+      "page": 3,
+      "lang": "en"
+    },
+    {
+      "level": "H2",
+      "text": "Noun-related Particles",
+      "page": 3,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "The last three particles",
+      "page": 3,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "The Inclusive",
+      "page": 3,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "The Vague Listing",
+      "page": 3,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "The",
+      "page": 3,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "The",
+      "page": 3,
+      "lang": "en"
+    },
+    {
+      "level": "H2",
+      "text": "Adverbs and Sentence-ending particles",
+      "page": 3,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Properties of Adverbs",
+      "page": 3,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Sentence-ending particles",
+      "page": 3,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Combining both to get",
+      "page": 3,
+      "lang": "en"
+    },
+    {
+      "level": "H2",
+      "text": "Desire and Suggestions",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "How to get your way in Japan",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Verbs you want to do with",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Indicating things you want or want done using",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Making a motion to do something using the volitional form",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Making a motion to do something using the volitional form",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Making Suggestions using the",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H2",
+      "text": "Performing an action on a relative clause",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "The direct quote",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "The interpreted quote",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H2",
+      "text": "Defining and Describing",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "The various uses of",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Rephrasing and making conclusions with",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Saying",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H2",
+      "text": "Trying something out or attempting to do something",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Let's try some stuff",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "To try something out",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "To attempt to do something",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H2",
+      "text": "Giving and Receiving",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Japanese people like gifts",
+      "page": 5,
+      "lang": "it"
+    },
+    {
+      "level": "H3",
+      "text": "When to use",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "When to use",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "When to use",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Asking favors with",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H2",
+      "text": "Making requests",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Politely (and not so politely) making requests",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "The Command Form",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Negative Command",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H2",
+      "text": "Numbers and Counting",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "The Number System",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Counting and Counters",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H2",
+      "text": "Casual Patterns and Slang",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Basic Principles of Slang",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Sentence ordering and particles",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 5,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 6,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Showing contempt for an action with",
+      "page": 6,
+      "lang": "en"
+    },
+    {
+      "level": "H2",
+      "text": "More sentence-ending particles",
+      "page": 6,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Gender-specific sentence-ending particles",
+      "page": 6,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "That's a wrap!",
+      "page": 6,
+      "lang": "en"
+    },
+    {
+      "level": "H2",
+      "text": "More negative verbs",
+      "page": 7,
+      "lang": "sl"
+    },
+    {
+      "level": "H3",
+      "text": "Doing something without doing something else",
+      "page": 7,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "A casual masculine type of negative that ends in",
+      "page": 7,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "A classical negative verb that ends in",
+      "page": 7,
+      "lang": "en"
+    },
+    {
+      "level": "H2",
+      "text": "Hypothesizing and Concluding",
+      "page": 7,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Coming to a conclusion with",
+      "page": 7,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Making hypotheses with",
+      "page": 7,
+      "lang": "en"
+    },
+    {
+      "level": "H2",
+      "text": "Expressing time-specific actions",
+      "page": 7,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Expressing what just happened with",
+      "page": 7,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Express what occurred immediately after with",
+      "page": 7,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 7,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 7,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "To repeat something with reckless abandon using",
+      "page": 7,
+      "lang": "en"
+    },
+    {
+      "level": "H2",
+      "text": "Leaving something the way it is",
+      "page": 7,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 7,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 7,
+      "lang": "en"
+    },
+    {
+      "level": "H2",
+      "text": "Others",
+      "page": 8,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 8,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 8,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 8,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 1",
+      "page": 10,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 10,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "1.1",
+      "page": 10,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "The problem with conventional textbooks",
+      "page": 10,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "1.2",
+      "page": 11,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "A Japanese guide to learning Japanese grammar",
+      "page": 11,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "1.3",
+      "page": 12,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Suggestions",
+      "page": 12,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 2",
+      "page": 14,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "The Writing System",
+      "page": 14,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "2.1",
+      "page": 14,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "The Scripts",
+      "page": 14,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "2.2",
+      "page": 15,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Intonation",
+      "page": 15,
+      "lang": "de"
+    },
+    {
+      "level": "H3",
+      "text": "2.3",
+      "page": 15,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Hiragana",
+      "page": 15,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "2.4",
+      "page": 20,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Katakana",
+      "page": 20,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "2.5",
+      "page": 25,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Kanji",
+      "page": 25,
+      "lang": "sl"
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 3",
+      "page": 28,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "Basic Grammar",
+      "page": 28,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "3.1",
+      "page": 28,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Basic Grammatical Structures",
+      "page": 28,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "3.2",
+      "page": 28,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Expressing State-of-Being",
+      "page": 28,
+      "lang": "de"
+    },
+    {
+      "level": "H3",
+      "text": "3.3",
+      "page": 32,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Introduction to Particles",
+      "page": 32,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（は、も、が）",
+      "page": 32,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "3.4",
+      "page": 37,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Adjectives",
+      "page": 37,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "3.5",
+      "page": 42,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Verb Basics",
+      "page": 42,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "3.6",
+      "page": 46,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Negative Verbs",
+      "page": 46,
+      "lang": "de"
+    },
+    {
+      "level": "H3",
+      "text": "3.7",
+      "page": 49,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Past Tense",
+      "page": 49,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "3.8",
+      "page": 52,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Particles used with verbs",
+      "page": 52,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（を、に、へ、で）",
+      "page": 52,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "3.9",
+      "page": 61,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Transitive and Intransitive Verbs",
+      "page": 61,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "3.10",
+      "page": 62,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Relative Clauses and Sentence Order",
+      "page": 62,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "3.11",
+      "page": 67,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Noun-related Particles",
+      "page": 67,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（と、や、とか、の）",
+      "page": 67,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "3.12",
+      "page": 76,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Adverbs and Sentence-ending particles",
+      "page": 76,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 4",
+      "page": 82,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "Essential Grammar",
+      "page": 82,
+      "lang": "it"
+    },
+    {
+      "level": "H3",
+      "text": "4.1",
+      "page": 83,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Polite Form and Verb Stems",
+      "page": 83,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（〜です、〜ます）",
+      "page": 83,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "4.2",
+      "page": 91,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Addressing People",
+      "page": 91,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "4.3",
+      "page": 95,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "The Question Marker",
+      "page": 95,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（か）",
+      "page": 95,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "4.4",
+      "page": 102,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Compound Sentences",
+      "page": 102,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（て",
+      "page": 102,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "-form",
+      "page": 102,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "、から、ので、のに、",
+      "page": 102,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "が、けど、し、〜たりする）",
+      "page": 102,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "4.5",
+      "page": 113,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Other uses of the te-form",
+      "page": 113,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（〜ている、〜てある、〜て",
+      "page": 113,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "おく、〜ていく、〜てくる）",
+      "page": 113,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "4.6",
+      "page": 122,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Potential Form",
+      "page": 122,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "4.7",
+      "page": 127,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 127,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "する",
+      "page": 127,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "and",
+      "page": 127,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "なる",
+      "page": 127,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "with the",
+      "page": 127,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "に",
+      "page": 127,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "particle",
+      "page": 127,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（〜",
+      "page": 127,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "[",
+      "page": 127,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "よう",
+      "page": 127,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "]",
+      "page": 127,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "にな",
+      "page": 127,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "る／する）",
+      "page": 127,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "4.8",
+      "page": 131,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Conditionals",
+      "page": 131,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（と、なら、ば、たら）",
+      "page": 131,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "4.9",
+      "page": 139,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Expressing \"must\" or \"have to\"",
+      "page": 139,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（〜だめ、〜いけない、",
+      "page": 139,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "〜ならない、〜ても）",
+      "page": 139,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "4.10",
+      "page": 145,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Desire and Suggestions",
+      "page": 145,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（たい、欲しい、",
+      "page": 145,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "volitional",
+      "page": 145,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "、",
+      "page": 145,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "〜たらどう）",
+      "page": 145,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "4.11",
+      "page": 152,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Performing an action on a relative clause",
+      "page": 152,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（と、って）",
+      "page": 152,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "4.12",
+      "page": 157,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Defining and Describing",
+      "page": 157,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（という）",
+      "page": 157,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "4.13",
+      "page": 165,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Trying something out or attempting to do something",
+      "page": 165,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（〜てみる、",
+      "page": 165,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "volitional+",
+      "page": 165,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "とする）",
+      "page": 165,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "4.14",
+      "page": 168,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Giving and Receiving",
+      "page": 168,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（あげる、やる、くれる、もら",
+      "page": 168,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "う）",
+      "page": 168,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "4.15",
+      "page": 176,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Making requests",
+      "page": 176,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（〜ください、〜ちょうだい、〜なさ",
+      "page": 176,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "い、",
+      "page": 176,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "command form",
+      "page": 176,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "）",
+      "page": 176,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "4.16",
+      "page": 183,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Numbers and Counting",
+      "page": 183,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "o'clock",
+      "page": 187,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "o'clock",
+      "page": 187,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "o'clock",
+      "page": 187,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "min",
+      "page": 188,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "min",
+      "page": 188,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "min",
+      "page": 188,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "min",
+      "page": 188,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "min",
+      "page": 188,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "min",
+      "page": 188,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "hours and 40 minutes",
+      "page": 188,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "days",
+      "page": 189,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "days",
+      "page": 189,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "day",
+      "page": 189,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "month",
+      "page": 189,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "months",
+      "page": 189,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "months",
+      "page": 189,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "4.17",
+      "page": 191,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Casual Patterns and Slang",
+      "page": 191,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "4.18",
+      "page": 201,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "More sentence-ending particles",
+      "page": 201,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 5",
+      "page": 210,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "Special Expressions",
+      "page": 210,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "5.1",
+      "page": 210,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Causative and Passive Verbs",
+      "page": 210,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "hours by that guy.",
+      "page": 219,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "hours by that guy.",
+      "page": 221,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "5.2",
+      "page": 221,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Honorific and Humble Forms",
+      "page": 221,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "5.3",
+      "page": 231,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Things that happen unintentionally",
+      "page": 231,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（〜てしまう、〜",
+      "page": 231,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "ちゃう／〜じゃう）",
+      "page": 231,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "5.4",
+      "page": 234,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Special expressions with generic nouns",
+      "page": 234,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（こと、ところ、",
+      "page": 234,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "もの）",
+      "page": 234,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "5.5",
+      "page": 237,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Expressing various levels of certainty",
+      "page": 237,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（かもしれない、",
+      "page": 237,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "でしょう、だろう）",
+      "page": 237,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "5.6",
+      "page": 242,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Expressing amounts",
+      "page": 242,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（だけ、のみ、しか、ばかり、す",
+      "page": 242,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "ぎる、",
+      "page": 242,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Amount+",
+      "page": 242,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "も、ほど、さ）",
+      "page": 242,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "5.7",
+      "page": 257,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Various ways to express similarity and hearsay",
+      "page": 257,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（よう、",
+      "page": 257,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "〜みたい、〜そう、〜そうだ、〜らしい、〜っぽい）",
+      "page": 257,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "5.8",
+      "page": 267,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Using",
+      "page": 267,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "⽅",
+      "page": 267,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "and",
+      "page": 267,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "よる",
+      "page": 267,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "for comparisons and other functions",
+      "page": 267,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（より、の⽅、",
+      "page": 267,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "stem",
+      "page": 267,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "＋⽅、によって、によると）",
+      "page": 267,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "5.9",
+      "page": 274,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Saying something is easy or difficult to do",
+      "page": 274,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（〜やすい、",
+      "page": 274,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "〜にくい）",
+      "page": 274,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "5.10",
+      "page": 277,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "More negative verbs",
+      "page": 277,
+      "lang": "sl"
+    },
+    {
+      "level": "H3",
+      "text": "（ないで、ず、〜ん、ぬ）",
+      "page": 277,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "5.11",
+      "page": 283,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Hypothesizing and Concluding",
+      "page": 283,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（わけ、〜とする）",
+      "page": 283,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "5.12",
+      "page": 287,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Expressing time-specific actions",
+      "page": 287,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（ばかり、とたんに、な",
+      "page": 287,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "がら、まくる）",
+      "page": 287,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "5.13",
+      "page": 295,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Leaving something the way it is",
+      "page": 295,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（まま、っぱなし）",
+      "page": 295,
+      "lang": "ja"
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 6",
+      "page": 298,
+      "lang": "en"
+    },
+    {
+      "level": "H1",
+      "text": "Advanced Topics",
+      "page": 298,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "6.1",
+      "page": 298,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Formal Expressions",
+      "page": 298,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（である、ではない）",
+      "page": 298,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "6.2",
+      "page": 303,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Things that should be a certain way",
+      "page": 303,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（はず、べき、べく、",
+      "page": 303,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "べからず）",
+      "page": 303,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "6.3",
+      "page": 311,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Expressing the minimum expectation",
+      "page": 311,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（でさえ、ですら、",
+      "page": 311,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "おろか）",
+      "page": 311,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "6.4",
+      "page": 316,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Showing signs of something",
+      "page": 316,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（〜がる、ばかり、〜めく）",
+      "page": 316,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "6.5",
+      "page": 322,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Formal expressions of non-feasibility",
+      "page": 322,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（〜ざるを得な",
+      "page": 322,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "い、やむを得ない、〜かねる）",
+      "page": 322,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "6.6",
+      "page": 327,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Tendencies",
+      "page": 327,
+      "lang": "es"
+    },
+    {
+      "level": "H3",
+      "text": "（〜がち、〜つつ、きらいがある）",
+      "page": 327,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "6.7",
+      "page": 333,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Advanced Volitional",
+      "page": 333,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（まい、であろう、かろう）",
+      "page": 333,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "6.8",
+      "page": 341,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Covered by something",
+      "page": 341,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（だらけ、まみれ、ずくめ）",
+      "page": 341,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "6.9",
+      "page": 345,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Advanced proximity of actions",
+      "page": 345,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（が早いか、や否や、そば",
+      "page": 345,
+      "lang": "ja"
+    },
+    {
+      "level": "H3",
+      "text": "から）",
+      "page": 345,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "6.10",
+      "page": 349,
+      "lang": null
+    },
+    {
+      "level": "H3",
+      "text": "Others",
+      "page": 349,
+      "lang": "en"
+    },
+    {
+      "level": "H3",
+      "text": "（思いきや、がてら、あげく）",
+      "page": 349,
+      "lang": "ja"
+    }
+  ]
+}
