@@ -126,7 +126,7 @@ Each `filename.pdf` inside `app/input/` generates a corresponding `filename.json
 
 ## 👩‍💻 Author
 
-Made with ❤️ by **Chitra Singh** and **Ajita Gupta**
+Made by **Chitra Singh** and **Ajita Gupta**
 
 For **Adobe GenAI Challenge 2025 – Round 1A (PDF Outline Extraction)**  
 Built using `PyMuPDF`, `langid`, and `Docker`
